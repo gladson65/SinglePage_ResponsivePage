@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gladson">
+    <meta name="keywords" content="HTML CSS BLOGPOST RESPONSIVEDESIGN">
+    <meta name="description" content="personal blog post website">
+    <!-- external css link -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- box icons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- title of the website -->
+    <title>BlogPost</title>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <!-- logo -->
+        <a href="#" class="logo">G<span class="s">S</span>R.<span>Blog</span>post</a>
+        <!-- menu icon to show and hide navbar -->
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <!-- nav section -->
+        <nav class="navbar">
+            <a href="#home-section" class="active">Home</a>
+            <a href="#about-section">About Me</a>
+            <a href="#skill-section">Skills</a>
+           
+            <div class="dropdown">
+                <a href="#">Services <i class='bx bxs-down-arrow r'></i></a>
+                
+                <div class="dropdown-content">
+                    <a href="#">Web Development</a>
+                    <a href="#">Content Writing</a>
+                    <a href="#">Digital Marketing</a>
+                    <a href="#">Music Production</a>
+                </div>
+            </div>
+
+            <a href="#contact-section">Contact</a>
+
+            <div class="active-nav"></div>
+        </nav>
+    </header>
+
+    <!-- main section start -->
+    <main>
+        <!-- home section -->
+        <section id="home-section">
+            <div class="home-container">
+                <h1>Hello, I'm Gladson Routh</h1>
+                <h2>Full Stack Developer</h2>
+                <div class="home-content">
+                   
+                    <p>
+                        Welcome to my blog website. I would like to thank you for your valuable time. I am Gladson Routh from India. I am a Full
+                        Stack Developer.
+                        I have completed my Bachelor of Arts in North Bengal University in 2018. After that I joined a Web Development course in
+                        NIIT and also completed
+                        Python with Django course in Udemy. I built several projects in React.js and Django framework.
+                        I am very passionate about Full Stack Development and I love to write code and solve programming problems. And I know
+                        the demand of Full Stack Developer is
+                        increasing day by day. So keep updated myself in the tech world I have joined Internshala. They provides MERN Stack
+                        Development with DSA and placement guranteed course.
+                        Which is pretty good. I hope you will find some interesting in my blog post, Thanks!
+                    </p>
+
+                    <img src="./images/home1.jpeg" alt="developer-pic">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about-section">
+            <div class="about-container">
+                <h1>About Me</h1>
+                <div class="about-content">
+                    <div class="about-info">
+                        <h1>GSR BLOGPOST</h1>
+                        <h2>Musician <span>|</span> Programmer <span>|</span> Learner</h2>
+                        <p>
+                            Music gives a soul to the universe, wings to the mind, flight to the
+                            imagination and life to everything in the world. And when I build a
+                            website or any web components I try to make a sense of it. At first I plan
+                            what to do then design it. After that I build, test and deploy it. I always
+                            stay motivated to learn new technologies and key skills. Good communication with
+                            client gives me the opportunity to understand their point of view on the project.
+                            And it's give me the clarity to build a good project. So I always prefer to listen
+                            them and obviously I also share my thoughts and creativity in front of them. I still
+                            learning and the whole purpose of education is to turn mirrors into windows. There is
+                            divine beauty in learning… To learn means to accept the postulate that life did not begin 
+                            at my birth. Others have been here before me, and I walk in their footsteps.
+                        </p>
+                    </div>
+                    <img src="./images/about.png" alt="about-pic">
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Skills Section -->
+        <section id="skill-section">
+
+            <h1>Skills</h1>
+
+            <div class="skill-container">
+
+                <div class="skill-content box-1">
+                    <img src="./images/html.png" alt="html-picture"></img>
+                </div>
+
+                <div class="skill-content box-2">
+                    <img src="./images/css3.png" alt="css3-picture"></img>
+                </div>
+
+                <div class="skill-content box-3">
+                    <img src="./images/js.png" alt="javascript-picture"></img>
+                </div>
+
+                <div class="skill-content box-4">
+                    <img src="./images/react.png" alt="react-picture">
+                </div>
+
+                <div class="skill-content box-5">
+                    <img src="./images/nodejs.png" alt="nodejs-picture">
+                </div>
+
+                <div class="skill-content box-6">
+                    <img src="./images/mongodb.png" alt="mongodb-picture">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact-section">
+            <div class="cont-container">
+                <div class="cont-content">
+                    <div class="cont-1">
+                        <h1>Contact Me</h1>
+                        <img src="./images/cont-image.jpg" alt="contact-image" />
+                    </div>
+
+                    <div class="cont-2">
+                        <form action="#" method="post">
+                
+                                <label for="name">Name</label>
+                                <input id="name" type="text" name="name" placeholder="Enter Your Name">
+                           
+                                <label for="email">Email</label>
+                                <input id="email" type="text" name="email" placeholder="Enter Your Email">
+                            
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="massage" placeholder="Enter Your Message"></textarea>
+                           
+
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        
+        <!-- footer section -->
+        <section id="footer-section">
+            <div class="footer-container">
+                <h3>Full Stack Developer</h3>
+                <p>copyright &copy; 2024 <a href=”https://glad.com”><span>GladsonRouth</span></a> </p>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- internal script for toggle the navbar -->
+    <script>
+        let menuIcon = document.querySelector('#menu-icon')
+        let navbar = document.querySelector('.navbar')
+
+        // click event with arrow function
+        menuIcon.onclick = () => {
+            menuIcon.classList.toggle('bx-x');
+            navbar.classList.toggle('show-nav');
+        }
+    </script>
+</body>
+</html>
